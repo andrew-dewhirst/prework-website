@@ -28,11 +28,24 @@ body {
     text-decoration: underline;
 }
 
-/* Style and size the photo as part of my logo */
+/* Size and locate the photo as part of my logo */
 #logo #photo {
    position: absolute;
    top: 275px;
-   left: 350px;
+   left: 100px;
    width: 250px;
    height: 150px;
+}
+
+/* Size and locate my name as part of my logo */
+#logo #info {
+    position: absolute;
+    top: 275px;
+    left: 400px;
+    font-size: 25px;
+}
+
+h2 {
+    position: absolute;
+    font-size: 25px;
 }
