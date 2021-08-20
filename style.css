@@ -16,10 +16,11 @@ body {
 
 /* Style the navigation links */
 #links a {
-    padding: 12px;
+    padding: 1%;
     color: white;
     text-decoration: none;
     font-size: 25px;
+    font-size: 2vw;
     width: 25%; /* Four equal-width links. */
 }
 
@@ -30,22 +31,24 @@ body {
 
 /* Size and locate the photo as part of my logo */
 #logo #photo {
-   position: absolute;
-   top: 275px;
-   left: 100px;
-   width: 250px;
-   height: 150px;
+   position: fixed;
+   top: 41%;
+   left: 7%;
+   width: 21%;
+   height: 22%;
 }
 
 /* Size and locate my name as part of my logo */
 #logo #info {
-    position: absolute;
-    top: 275px;
-    left: 400px;
+    position: fixed;
+    top: 40%;
+    left: 31%;
     font-size: 25px;
+    font-size: 2vw;
 }
 
 h2 {
-    position: absolute;
+    position: fixed;
     font-size: 25px;
+    font-size: 2vw;
 }
