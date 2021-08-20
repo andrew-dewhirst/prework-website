@@ -5,7 +5,7 @@ body {
 }
 
 /* Style the navigation menu */
-#links {
+.links {
     width: 100%;
     text-align: right;
     overflow: auto;
@@ -15,7 +15,7 @@ body {
     }
 
 /* Style the navigation links */
-#links a {
+.links a {
     padding: 1%;
     color: white;
     text-decoration: none;
@@ -25,7 +25,7 @@ body {
 }
 
 /* Add an underline on mouse-hover */
-#links a:hover {
+.links a:hover {
     text-decoration: underline;
 }
 
@@ -36,6 +36,7 @@ body {
    left: 7%;
    width: 21%;
    height: 22%;
+   border-radius: 10%/20%;
 }
 
 /* Size and locate my name as part of my logo */
